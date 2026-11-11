@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alphonso Mango Pulp – Product Information</title>
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#fffaf0;--card:#ffffff;--text:#2b2118;--muted:#6b5b4b;--accent:#e8890c;--accent2:#b45f06;--line:#f0e1c8;--chip:#fff1d6;--warn:#fff4e5;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#17120c;--card:#221a11;--text:#f6ead8;--muted:#b9a88f;--accent:#ffb340;--accent2:#ffc775;--line:#3a2d1c;--chip:#3a2a12;--warn:#2d2111;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#17120c;--card:#221a11;--text:#f6ead8;--muted:#b9a88f;--accent:#ffb340;--accent2:#ffc775;--line:#3a2d1c;--chip:#3a2a12;--warn:#2d2111;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+.hero{background:linear-gradient(135deg,#f9b233,#e8700c);color:#fff;border-radius:20px;padding:32px 24px;text-align:center}
+.hero .emoji{font-size:56px;line-height:1}
+.hero h1{margin:8px 0 4px;font-size:clamp(1.6rem,6vw,2.3rem);letter-spacing:.02em}
+.hero p{margin:0;opacity:.95}
+.badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px}
+.badge{background:rgba(255,255,255,.22);border-radius:999px;padding:4px 12px;font-size:.85rem;font-weight:600}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:16px}
+h2{margin:0 0 12px;font-size:1.15rem;color:var(--accent2)}
+.bar{display:flex;height:34px;border-radius:10px;overflow:hidden;font-size:.8rem;font-weight:600;color:#fff}
+.bar div{display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.legend{list-style:none;padding:0;margin:14px 0 0}
+.legend li{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line)}
+.legend li:last-child{border:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--chip);border-radius:999px;padding:4px 12px;font-size:.9rem}
+.note{background:var(--warn);border-left:4px solid var(--accent);padding:10px 14px;border-radius:8px;margin:0 0 14px;font-size:.92rem}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px 8px;text-align:left;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+td:last-child,th:last-child{text-align:right}
+tr.sub td:first-child{padding-left:24px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.item{background:var(--chip);border-radius:12px;padding:12px 14px}
+.item small{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-size:.72rem}
+.item strong{font-size:1.05rem}
+ul.tips{margin:0;padding-left:20px}
+footer{text-align:center;color:var(--muted);font-size:.8rem;margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="emoji">🥭</div>
+    <h1>ALPHONSO MANGO PULP</h1>
+    <p>Made with 92% Alphonso Mango</p>
+    <div class="badges">
+      <span class="badge">92% Mango</span>
+      <span class="badge">Low Sugar Syrup (7%)</span>
+      <span class="badge">0 g Fat</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Ingredients</h2>
+    <div class="bar" role="img" aria-label="Alphonso Mango 92%, Cane Sugar Syrup 7%, Citric Acid 1%">
+      <div style="width:92%;background:#e8890c">Mango 92%</div>
+      <div style="width:7%;background:#b45f06"></div>
+      <div style="width:1%;background:#7a3e00"></div>
+    </div>
+    <ul class="legend">
+      <li><span>Alphonso Mango</span><strong>92%</strong></li>
+      <li><span>Cane Sugar Syrup</span><strong>7%</strong></li>
+      <li><span>Citric Acid (Acidity Regulator)</span><strong>–</strong></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Allergen Information</h2>
+    <p class="note"><strong>May contain</strong> traces of the following:</p>
+    <div class="chips">
+      <span class="chip">Milk</span><span class="chip">Soy</span><span class="chip">Sesame</span>
+      <span class="chip">Mustard</span><span class="chip">Celery</span><span class="chip">Almonds</span>
+      <span class="chip">Cashews</span><span class="chip">Pistachios</span><span class="chip">Peanuts</span>
+      <span class="chip">Wheat</span><span class="chip">Sulphites</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nutrition Information</h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Nutritional Value</th><th>Per 100 g</th></tr></thead>
+        <tbody>
+          <tr><td>Energy</td><td>385 kJ / 92 kcal</td></tr>
+          <tr><td>Fat</td><td>0.0 g</td></tr>
+          <tr class="sub"><td>of which saturates</td><td>0.0 g</td></tr>
+          <tr><td>Carbohydrates</td><td>23.0 g</td></tr>
+          <tr class="sub"><td>of which sugars</td><td>21.0 g</td></tr>
+          <tr><td>Fibre</td><td>2.0 g</td></tr>
+          <tr><td>Protein</td><td>0.0 g</td></tr>
+          <tr><td>Salt</td><td>0.0 g</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Storage Instructions</h2>
+    <ul class="tips">
+      <li>Keep in a cool, dry and hygienic place.</li>
+      <li>Do not use if the can is swollen or damaged.</li>
+      <li>After opening, consume the entire contents immediately.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Product Details</h2>
+    <div class="grid">
+      <div class="item"><small>Batch Number</small><strong>12456</strong></div>
+      <div class="item"><small>Best Before End</small><strong>12/05/20207</strong></div>
+      <div class="item"><small>Imported By</small><strong>Abc</strong></div>
+    </div>
+  </section>
+
+  <footer>Please read all product information before consumption.</footer>
+</div>
+</body>
+</html>
